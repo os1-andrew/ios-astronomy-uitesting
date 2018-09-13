@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		10932ECE214AF8A0004B1921 /* AstronomyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10932ECD214AF8A0004B1921 /* AstronomyUITests.swift */; };
+		10932ED6214AF943004B1921 /* TestPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10932ED5214AF943004B1921 /* TestPage.swift */; };
+		10932ED8214AF9DD004B1921 /* CollectionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10932ED7214AF9DD004B1921 /* CollectionPage.swift */; };
+		10932EDA214AF9E5004B1921 /* DetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10932ED9214AF9E5004B1921 /* DetailPage.swift */; };
+		10932EDC214B1855004B1921 /* XCTestCase+Expect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10932EDB214B1855004B1921 /* XCTestCase+Expect.swift */; };
 		4647E7C92148C3F700E7FF73 /* Sol15Photos in Resources */ = {isa = PBXBuildFile; fileRef = 4647E7C62148C3F400E7FF73 /* Sol15Photos */; };
 		4647E7CA2148C3F700E7FF73 /* Sol16Photos in Resources */ = {isa = PBXBuildFile; fileRef = 4647E7C72148C3F600E7FF73 /* Sol16Photos */; };
 		4647E7CB2148C3F700E7FF73 /* Sol14Photos in Resources */ = {isa = PBXBuildFile; fileRef = 4647E7C82148C3F700E7FF73 /* Sol14Photos */; };
@@ -48,6 +52,10 @@
 		10932ECB214AF8A0004B1921 /* AstronomyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10932ECD214AF8A0004B1921 /* AstronomyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyUITests.swift; sourceTree = "<group>"; };
 		10932ECF214AF8A0004B1921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10932ED5214AF943004B1921 /* TestPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPage.swift; sourceTree = "<group>"; };
+		10932ED7214AF9DD004B1921 /* CollectionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPage.swift; sourceTree = "<group>"; };
+		10932ED9214AF9E5004B1921 /* DetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPage.swift; sourceTree = "<group>"; };
+		10932EDB214B1855004B1921 /* XCTestCase+Expect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Expect.swift"; sourceTree = "<group>"; };
 		4647E7C62148C3F400E7FF73 /* Sol15Photos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sol15Photos; sourceTree = "<group>"; };
 		4647E7C72148C3F600E7FF73 /* Sol16Photos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sol16Photos; sourceTree = "<group>"; };
 		4647E7C82148C3F700E7FF73 /* Sol14Photos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sol14Photos; sourceTree = "<group>"; };
@@ -99,6 +107,10 @@
 			children = (
 				10932ECD214AF8A0004B1921 /* AstronomyUITests.swift */,
 				10932ECF214AF8A0004B1921 /* Info.plist */,
+				10932ED5214AF943004B1921 /* TestPage.swift */,
+				10932ED7214AF9DD004B1921 /* CollectionPage.swift */,
+				10932ED9214AF9E5004B1921 /* DetailPage.swift */,
+				10932EDB214B1855004B1921 /* XCTestCase+Expect.swift */,
 			);
 			path = AstronomyUITests;
 			sourceTree = "<group>";
@@ -323,6 +335,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10932EDC214B1855004B1921 /* XCTestCase+Expect.swift in Sources */,
+				10932ED8214AF9DD004B1921 /* CollectionPage.swift in Sources */,
+				10932ED6214AF943004B1921 /* TestPage.swift in Sources */,
+				10932EDA214AF9E5004B1921 /* DetailPage.swift in Sources */,
 				10932ECE214AF8A0004B1921 /* AstronomyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

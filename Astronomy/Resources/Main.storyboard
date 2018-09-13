@@ -42,6 +42,9 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MarsPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="xlN-QE-XWB">
                                                     <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="CollectionView.ImageView">
+                                                        <bool key="isElement" value="YES"/>
+                                                    </accessibility>
                                                 </imageView>
                                             </subviews>
                                         </view>
