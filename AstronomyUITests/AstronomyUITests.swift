@@ -16,18 +16,27 @@ class AstronomyUITests: XCTestCase {
         
         let app = XCUIApplication()
         app.launchArguments = ["UITesting"]
-        XCUIApplication().launch()
+        app.launch()
     }
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+    Hi H
     func testNextSol(){
         CollectionPage(testCase: self)
         .tapNextSol()
         .verifyTapNextSol()
+    }
+    
+    func testPreviousSol(){
+        CollectionPage(testCase: self)
+            .tapNextSol()
+            .tapNextSol()
+            .tapNextSol()
+            .tapPreviousSol()
+            .verifyTapPreviousSol()
     }
     
 }

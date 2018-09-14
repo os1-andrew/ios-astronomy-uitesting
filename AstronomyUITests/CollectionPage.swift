@@ -15,7 +15,15 @@ struct CollectionPage: TestPage{
     @discardableResult func verifyTapNextSol(file: String = #file, line: UInt = #line) -> CollectionPage {
         let previousSolNumber = self.solNumber
         self.tapNextSol()
+        sleep(50)
+        print(self.solNumber,previousSolNumber)
         testCase.expect(true: self.solNumber > previousSolNumber, file: file, line: line)
+        return self
+    }
+    @discardableResult func verifyTapPreviousSol(file: String = #file, line: UInt = #line) -> CollectionPage {
+        let previousSolNumber = self.solNumber
+        self.tapPreviousSol()
+        testCase.expect(true: self.solNumber < previousSolNumber, file: file, line: line)
         return self
     }
     
